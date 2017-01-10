@@ -1,0 +1,29 @@
+@charset "utf-8";
+#container{
+	padding: 10px;
+	background-color: #ccc;
+	width: 360px;
+	height: 360px; 
+}
+
+#binario{
+	height: 100px;
+	width: 360px;
+	background: url("img/rails.png");
+	background-repeat: repeat-y;
+	border-bottom: 2px solid black;
+	border-right: 2px dashed red;
+}
+
+#treno{
+	height: 70px;
+	width: 100px;
+	position: relative;
+	left: 0px;
+	top: 30px;
+}
+
+#treno img {
+	width: 100%;
+	height: 68px;
+}

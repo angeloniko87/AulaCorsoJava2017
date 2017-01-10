@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>Obj in javascript</title>
+		<script type="text/javascript">
+
+			function Animale(){
+				var proprietario	=	"Mauro";
+				var genere			= 	undefined;
+
+				this.setProprietario=function(chi){
+					propietario=chi;
+				};
+				this.getPropietario= function(){
+					return proprietario;
+					};
+
+				this.setGenere=function(chi){
+						genere=chi;
+				};
+
+				this.getGenere= function(){
+						return genere;
+					};
+			}
+			
+			function Gatto(){}
+			Gatto.prototype= new Animale();
+			Gatto.prototype.constructor= Gatto;
+			Gatto.prototype.emit= function emin (){
+				return ("mua");
+			}
+
+		</script>
+	</head>
+	<body>
+		<h1>Obj in array</h1>
+		<p>
+			<script type="text/javascript">
+
+				var mioGatto = new Gatto;
+				document.write(mioGatto.getPropietario());
+				document.write(mioGatto.emit());
+
+
+			</script>
+		</p>
+		
+
+	
+
+	</body>
+</html>

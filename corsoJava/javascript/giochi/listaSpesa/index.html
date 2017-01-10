@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lista Spesa</title>
+
+</head>
+
+<body>
+
+
+<ul id="miaLista"></ul>
+<div id="test"></div>
+
+<script type="text/javascript">
+	
+	var miaLista= document.getElementById("miaLista");
+	var listaSpesa= ["Uova", "Burro","Latte","Acqua"];
+
+	//scorro l'array
+	for (var i=0;i<listaSpesa.length; i++) {
+		console.log(listaSpesa[i]);
+	};
+
+	//uso il metodo sort() degli array per ordinare in modo naturale il mio array
+	listaSpesa.sort();
+
+	//scorro array
+	for (var i=0;i<listaSpesa.length; i++) {
+		console.log(listaSpesa[i]);
+	};
+
+	//uso il metodo reverse() degli array per ordinare in modo naturale decrescente il mio array
+	listaSpesa.reverse();
+
+	//scorro array
+	for (var i=0;i<listaSpesa.length; i++) {
+		console.log(listaSpesa[i]);
+	};
+	//uso il metodo push() degli array per inserire un elemento nell'array
+	listaSpesa.push("Patate");
+
+	var temp="";
+	//scorro array
+	for (var i=0;i<listaSpesa.length; i++) {
+		console.log(listaSpesa[i]);
+		temp +="<li>" + listaSpesa[i] + "</li>";
+	};
+
+	miaLista.innerHTML=temp;
+	
+	test.innerHTML = listaSpesa.join("</br>");
+
+</script>
+</body>
+
+</html>

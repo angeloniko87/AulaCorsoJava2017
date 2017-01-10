@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>array in javascript</title>
+		
+	</head>
+	<body>
+
+		<button onclick="aggiornaTabella()"> Aggiorna</button>
+		<table id="mia_tabella">
+		</table>
+		
+		<ul id="test">
+		</ul>
+
+		
+			<script type="text/javascript">
+				
+				var mioTabella=document.getElementById("mia_tabella");
+				var mioULtest = document.getElementById('test');
+				var testArray=[];
+				testArray['nome']='mauro';
+				testArray['cognome']='bogliaccino';
+
+				alert(testArray.nome);
+				alert(testArray['nome']);
+				alert(testArray);
+
+
+				var t= new Array();
+				t.nome='roberto';
+				t.nome='antonio';
+
+
+				var tt=[	[0,1,2]	,	['pippo','pluto']	]; //array irregolare perche in un array sono presenti 3 valori e nel secondo solo 2
+
+				var obj= new Object();
+				obj.nome='mauro';
+				obj['cognome'] ='bogliaccino';
+
+				//alert(obj.nome + obj.cognome);
+				delete obj.cognome;
+
+				if("cognome" in obj)
+				alert(obj.nome + obj.cognome);
+
+
+				obj.presentazione = myPresentazione
+				function myPresentazione(){
+					alert('ciao da mypres');
+				}
+
+				obj.presentazione();
+
+				obj.ripetiPresentazione= function(){
+					alert('Ciao da myRiPres')
+				}
+
+				obj.ripetiPresentazione();
+
+				var altroObj={
+					x:2,
+					y:3,
+					calcolaArea: function(){return this.x*this.y}
+				};
+
+				alert(altroObj.calcolaArea());
+
+
+
+
+
+
+
+				var tabella='';
+				
+				
+
+				function aggiornaTabella(){
+				
+
+				for (var i=1;i<=10;i++){
+					tabella +='<tr>';
+				
+				
+				for (var j=1;j<=10;j++){
+					tabella +='<td>';
+					if((i*j) %5 == 0)
+						tabella += '<td style="color:red;">';
+					else
+					tabella +='<td>';
+					tabella+=i*j;
+					tabella += '</td>';
+				};
+
+
+					tabella +='</tr>';
+				};
+
+					mioTabella.innerHTML = tabella;
+
+				};
+			</script>
+		
+
+	</body>
+</html>

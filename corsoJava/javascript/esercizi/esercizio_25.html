@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>Obj in javascript</title>
+		<script type="text/javascript">
+
+			function distanza(velocita, tempo){
+
+				this.velocita=velocita;
+				this.tempo=tempo;
+
+				this.calcola = function(){
+					return (this.velocita * tempo);
+				};
+			}
+
+		</script>
+	</head>
+	<body>
+		<h1>Obj in array</h1>
+		<p>
+			<script type="text/javascript">
+				
+				//eval valuta il significato del valore che stiamo passando
+				var velocita= eval(prompt("Quanti Km/h vai?", "Scrivi qui.."));
+				var tempo= eval(prompt("Quanti ore hai impiegato?", ""));
+
+				var d= new distanza(velocita,tempo);	
+				var result =d.calcola();
+				document.write("Hai guidato per " + result + " Km");
+			
+			
+
+		
+
+			</script>
+		</p>
+		
+
+	
+
+	</body>
+</html>

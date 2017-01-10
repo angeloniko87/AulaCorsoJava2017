@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>Obj in javascript</title>
+		<script type="text/javascript">
+
+			function stampaInfo(){
+				document.write("verso " + gatto.verso + "</br>");
+				document.write("colore " + gatto.colore + "</br>");
+				document.write("nome " + gatto.nome + "</br>");
+			}
+
+			var gatto= new Object();
+			gatto.verso="miao";
+			gatto.colore="rosso";
+			gatto.nome="mau";
+			gatto.pedigree= stampaInfo;
+			
+			//alert (gatto);
+
+
+			
+
+			
+
+		</script>
+	</head>
+	<body>
+		<h1>Obj in array</h1>
+		<p>
+			<script type="text/javascript">
+				
+				gatto.pedigree();
+			
+
+		
+
+			</script>
+		</p>
+		
+
+	
+
+	</body>
+</html>

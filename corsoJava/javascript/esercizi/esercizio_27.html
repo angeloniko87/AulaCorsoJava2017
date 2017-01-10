@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>Obj in javascript</title>
+		<script type="text/javascript">
+
+			function Libro(titolo, autore){
+				this.titolo= titolo;
+				this.autore=autore;
+			};
+		
+		</script>
+	</head>
+	<body>
+		<h1>Obj in array</h1>
+		<p>
+			<script type="text/javascript">
+				
+				var libro1= new Libro ("Essere e Avere", "E. Fromm");
+				var libro2= new Libro ("Il signore degli anelli", "J.R. Tolkien");
+ 				//da a tutti gli oggetti la proprieta lingua
+ 				Object.prototype.lingua="Italiano";
+
+ 				//prototype inserisce nella classe una nuova proprieta
+ 				Libro.prototype.editore="Einaudi";
+
+ 				Libro.prototype.publicazione= new Date();
+ 				//modifichiamo l'editore solo per libro1
+ 				libro1.editore="Mondadori";
+
+ 				document.write(libro1.titolo + " " + libro1.editore + " " + libro1.publicazione + " " + libro1.lingua);
+				document.write(libro2.titolo + " " + libro2.editore + " " + libro2.publicazione + " " + libro2.lingua);
+
+				//ritorna il tipo della proprietà
+				//alert (typeof libro1.editore);
+
+				
+			</script>
+		</p>
+		
+
+	
+
+	</body>
+</html>

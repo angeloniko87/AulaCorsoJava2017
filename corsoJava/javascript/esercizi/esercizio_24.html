@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>Obj in javascript</title>
+		<script type="text/javascript">
+
+			function stampaInfo(){
+				document.write("verso " + this.verso + "</br>");
+				document.write("colore " + this.colore + "</br>");
+				document.write("nome " + this.nome + "</br>");
+			}
+
+			function Gatto(nome, colore){//creo la classe Gatto
+				this.nome=nome;
+				this.verso="mau";
+				this.colore=colore;
+
+				this.cartaIdentita=function(){
+					document.write("verso " + this.verso + "</br>");
+					document.write("colore " + this.colore + "</br>");
+					document.write("nome " + this.nome + "</br>");
+
+				};
+			}
+
+
+		</script>
+	</head>
+	<body>
+		<h1>Obj in array</h1>
+		<p>
+			<script type="text/javascript">
+				var mioGatto= new Gatto("Mau", "Rosso"); //creo un oggetto di tipo Gatto.
+ 
+
+				document.write(mioGatto.cartaIdentita());
+			
+
+			
+			
+
+		
+
+			</script>
+		</p>
+		
+
+	
+
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lampadina</title>
+
+</head>
+
+<body>
+	<div id="container">
+
+		<img src="img/lampadina_off.jpg" class="immagini" id="img1"/>
+		<br>
+		<button onclick="interruttore()">bottone</button>
+	</div>
+
+	<script>
+		var lampadina = document.getElementById("img1");
+
+		function interruttore(){
+			if(lampadina.src.indexOf("_off")>-1){
+
+				lampadina.src="img/lampadina_on.jpg";
+			}else{
+				lampadina.src="img/lampadina_off.jpg";
+			}
+		}
+	</script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>array in javascript</title>
+		
+	</head>
+	<body>
+
+		<button onclick="aggiornaTabella()"> Aggiorna</button>
+		<table id="mia_tabella">
+		</table>
+		
+		<ul id="test">
+		</ul>
+
+		
+			<script type="text/javascript">
+				
+				var mioTabella=document.getElementById("mia_tabella");
+
+				
+				//primo modo per dichiarare array  in js
+				//var elencoStudenti2= new Array();
+				//elencoStudenti2[0]= 'Balzano Roberto';
+				//console.log(typeof elencoStudenti2);
+
+				//secondo modo per dichiarare array in js
+				//stampa a console tutto il contenuto nell'array in una sola riga
+				var elencoStudenti=['Balzano Roberto', 'Bombaci Simone','Bellia Vittorio'];
+
+				var elenco corrette=[16,18,13];
+				var elencoErrate[6,5,5]
+				console.log(elencoStudenti);
+
+				//stampa a console un solo elemento dell'array alla volta
+				var lunghezza = elencoStudenti.length;
+				
+				for (var i=0;i<lunghezza;i++){
+				console.log(typeof elencoStudenti[i]);
+				}
+
+				var lunghezza = elencoStudenti.length;
+
+				function aggiornaTabella(){
+				
+				var testo='';
+				
+				for (var i=0;i<lunghezza;i++){
+					testo += "<tr>";
+					testo += "<td>";
+					testo+= elencoStudenti[i];
+					testo+="</td>";
+					testo+="<td>";
+					testo+= elencoCorrette[i];
+					testo+="</td>";
+					testo+="<td>";
+					testo+= elencoErrate[i];
+					testo+="</td>";
+					testo+="</tr>";
+				};
+
+
+					mioTabella.innerHTML = testo;
+				};
+
+			</script>
+		
+
+	</body>
+</html>
