@@ -1,0 +1,20 @@
+
+{
+"nomePiatto"	: "Beignets",		
+"cuochi"		: ["Fatou Sylla", "Sokhna Faye"],		
+"provenienza"	: "Senegal",		
+"immagini"		: ["beignets1.jpg"],	 	
+"ingredienti"	: ["1,5 kg di farina 00",
+					"1l di latte di soia",
+					"6 uova",
+					"30 gr di margarina",
+					"50 gr di lievito di birra",
+					"1kg di zucchero",
+					"1,5l di olio di semi",
+					"1 noce moscata",
+					"1 vaniglia",
+					"1 arancia",
+					"20gr di sale"],
+"preparazione"	:	"Per fare il BEIGNETS bisogna prendere la farina con il latte, le uova e lo zucchero, impastare tutto mettendo il lievito di birra, l'arancia, la noce moscata grattugiata. Aggiungere la vaniglia e la margarina, impastarlo ancora bene. Viene quindi formato un panetto e si lascia l'impasto a riposare coperto con pellicola in un recipiente finchè raddoppia il volume (per 30 minuti circa). Riprendere l’impasto lievitato e dare delle forme di pallini rotondi; prendere una padella per friggere quando l’olio è ben caldo mettendone pochi per volta."
+}
+

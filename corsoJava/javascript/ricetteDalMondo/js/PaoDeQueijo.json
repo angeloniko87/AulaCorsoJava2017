@@ -1,0 +1,16 @@
+
+{
+"nomePiatto"	: "Pao de Queijo",		
+"cuochi"		: ["Eliane Mendes", "Mariana Sampaio Ribeiro"],		
+"provenienza"	: "Brasile",		
+"immagini"		: ["PaoDeQueijo1.jpg","PaoDeQueijo2.jpg","PaoDeQueijo3.jpg","PaoDeQueijo4.jpg","PaoDeQueijo5.jpg","PaoDeQueijo6.jpg","PaoDeQueijo7.jpg","PaoDeQueijo8.jpg"],	 	
+"ingredienti"	: ["500g di amido di manioca",
+					"2 uova",
+					"250 ml di latte",
+					"Mezzo bicchiere di olio di semi",
+					"1 cucchiaio di sale",
+					"150g di parmigiano grattugiato",
+					"350g di mozzarella grattugiata"],
+"preparazione"	:	"Mettete in una pentola il latte, l’olio e il sale, poi scaldate finché non inizia a bollire. Appena vedete le prime bolle togliete dal fuoco e versare il tutto sull’amido che avete prima disposto in una ciotola. Mischiate con una spatola, poi quando il composto si è un po’ raffreddato impastare con le mani. Aggiungere l’uovo (uno poi l’altro) dipende se l’impasto è secco, infine aggiungete i formaggi, impastare bene finché l’impasto non si stacca dalle mani e anche dalla ciotola.Formate delle palline e disponete in una teglia (non bisogna né imburrare né carta forno) cuocere in forno 170° finché diventano dorati, servire ancora caldi."						
+}
+

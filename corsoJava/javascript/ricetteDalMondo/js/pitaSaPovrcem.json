@@ -1,0 +1,19 @@
+{
+	"nomePiatto"	: "Pita sa povrcem",
+	"cuochi"		: "Selimovic Dragana",
+	"provenienza"	: "Bosnia",
+	"immagini"		: ["pita1.jpg", "pita2.jpg"],
+	"ingredienti"	: ["1 ½ kg farina 00",
+                  	"5 uova ",
+                  	"200 g ricotta ",
+                  	"150 g zucca ",
+                  	"200 g cipolle bianche ",
+                  	"100 g carote ",
+                  	"250 g formaggio greco feta ",
+                  	"200 g formaggio grana padano ",
+                  	"Olio di semi di girasole ",
+                  	"Sale fino quanto basta ",
+                  	"Pepe nero (q.b.)"
+                  ],
+    "preparazione"	: "Prima si prende un contenitore e si aggiunge la farina, condire con il sale, mettere l’acqua tiepida e impastare. Dopo aver impastato prendere l’impasto e fare delle palline grandi e spalmare l’olio di semi sopra con la mano. \nMettere in una teglia e lascare lievitare per 5 minuti. \nPoi prendere la verdura tagliarla tutta a cubetti piccoli e mettere in un contenitore. \nAggiungere le uova,  la ricotta e i formaggi e con la frusta mescolare ed aggiungere il pepe e il sale. \nDopo aver preparato tutto prendete un po' di farina e mettetela sotto l’impasto (così) non si attacca, stendetelo con il mattarello: l’impasto deve essere fine come un foglio. Poi mettete poco olio di semi, aggiungete la salsa (che è composta da zucca, cipolla, carote, uova, ricotta e i formaggi) e la arrotolate. Mettete la Pita in una teglia e imburrata e dopo infornate a 150°C; deve essere dorata. Dopo aggiungere l’acqua tiepida." 
+}

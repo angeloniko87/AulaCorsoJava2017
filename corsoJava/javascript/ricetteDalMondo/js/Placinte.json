@@ -1,0 +1,21 @@
+
+{
+"nomePiatto"	: "Placinte",		
+"cuochi"		: ["Tatiana Gaidau"],		
+"provenienza"	: "Moldavia",		
+"immagini"		: ["Placinte1.jps"],	 	
+"ingredienti"	: [ "500 g farina 00",
+					"240 ml acqua tiepida",
+					"3 cucchiai di olio di semi di girasole",
+					"1 cucchiaio di aceto bianco",
+					"20 g di sale",
+					"1000 g ricotta vaccina",
+					"5 uova intere",
+					"700 g zucca gialla",
+					"200 g zucchero semolato",
+					"1 cucchiaino di cannella",
+					"100 g di margarina fusa"
+					],
+"preparazione"  :"Si amalgama la farina, l’acqua tiepida, metà del sale diluito in acqua, aceto e olio, ottenendo una pasta liscia e omogenea. Si copre con la pellicola lasciando riposare per 30 min. a temperatura ambiente.Dopo aver fatto riposare la pasta si divide in 6 parti, si stende in dischi spessi 0,5 cm.I dischi di pasta si ungono con olio di girasole e si lasciano riposare altri 15 min. Nel frattempo si prepara la farcia: alla ricotta si aggiungono le uova, l’aneto e il sale q.b. (versione salata). Si grattugia la zucca, si aggiunge lo zucchero, la cannella e nella padella si disidrata sul fuoco, dopodiché si lascia raffreddare. La pasta si stende molto sottile prima con il mattarello poi con le mani. Si mette nella teglia da forno unta il primo strato, poi si prosegue con altri 2 strati sempre spalmando tra loro con la margarina fusa. Dopo aver messo i 3 strati si mette la farcia. Si copre con altri 3 strati con la stessa procedura di prima. Sopra si spennella con l’uovo e si mette nel forno preriscaldato per 20-30min a 200°. Appena raffreddato sulla versione dolce si cosparge di zucchero a velo. La versione salata si serve tiepida."
+}
+

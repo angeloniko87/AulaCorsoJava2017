@@ -1,0 +1,18 @@
+{
+"nomePiatto"	: "Mssemmen",		
+"cuochi"		: ["Baiya Imane", "Essahel Bouchra", "Ezzaky Khadija", "Jauhar Khadija"],		
+"provenienza"	: "Marocco",		
+"immagini"		: ["mssemmen01.jpg","mssemmen02.jpg"],	 	
+"ingredienti"	: ["500gr semolino",
+					"1kg di semola",
+					"1,5kg farina tipo 00",
+					"0,5l olio di semi",
+					"500gr di margarina",
+					"0,5l latte di soia non dolcificato",
+					"20gr di lievito di birra",
+					"50gr di zucchero",
+					"1 pizzico di sale"
+					],
+"preparazione" : ["Mettere la farina a fontana, aggiungere lo zucchero, il sale, il lievito, il latte, versare poco a poco l’acqua e latte e mescolare l’impasto finché risulti morbido ed elastico. Lavorare per almeno 10-15 minuti. Formare una palla.\n Poi fare delle palline abbastanza piccole con l’impasto. \n Prendere una pallina alla volta e stenderla con le mani. L’impasto steso deve essere abbastanza sottile. Metterci sopra un pochino d’olio mescolato con il burro e anche la semola sopra. \n Poi si stende  e si piegano tutti i lati all'interno al fine di farne un fagotto. \n Bisogna fare lo stesso procedimento a tutto l’impasto. Dopo aver finito si prende l’impasto e lo apriamo (stendiamo) per formare un rettangolo e poi si mette in padella con un pò (pochissimo) d’olio sopra."]
+}
+

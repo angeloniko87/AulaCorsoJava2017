@@ -1,0 +1,11 @@
+{
+"nomePiatto"	: "The alla menta",		
+"cuochi"		: ["Baiya Imane", "Essahel Bouchra", "Ezzaky Khadija", "Jauhar Khadija"],		
+"provenienza"	: "Marocco",		
+"immagini"		: ["TheMenta1.jpg","TheMenta2.jpg","TheMenta3.jpg"],	 	
+"ingredienti"	: ["400g di foglie di menta fresca (romana o piperita)",
+					"2 litri di acqua calda",
+					"300g di zucchero"],
+"preparazione"	: "Fai bollire l'acqua. Versa 60 ml di acqua bollente in una teiera pulita. Sciacquala e poi butta via l'acqua.Aggiungi 1 cucchiaino di tè in foglie nella teiera per ogni 177 ml di acqua calda. Aggiungi 100 ml di acqua calda per ogni tazza di tè. Aggiungi le foglie di menta nella teiera. Aggiungi lo zucchero nella teiera. Riempi la teiera con 1,5 litro d'acqua bollente. Lascia il tè in infusione per cinque minuti o più. •	Se hai una teiera marocchina o una termoresistente, invece di lasciarla in infusione, mettila sul fornello a fuoco lento e porta il tè leggermente in ebollizione. Poi, toglila immediatamente dal fornello e lascia il tè in infusione ancora per qualche minuto. Versa il tè dall'alto con cura. Questo farà sì che si crei uno strato sottile di schiuma sulla superficie. Mentre versi assicurati che le foglie di tè restino nella teiera. Riempi le tazze per 2/3. In questo modo, permetterai all'aroma di sprigionarsi completamente. Decora con delle foglie di menta. È un passaggio facoltativo ma gli conferisce un aspetto meraviglioso, soprattutto se hai dei tipici bicchieri marocchini."					
+}
+

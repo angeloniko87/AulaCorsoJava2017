@@ -1,0 +1,21 @@
+var ricette = 
+[
+	{
+       "nomePiatto":  "Kitcha Kit Fit",
+       "cuochi":      ["Yonas Thewoldemedhen"],
+       "provenienza": "Eritrea",
+       "immagini":    ["",""],
+       "ingredienti": ["800gr di farina integrale",
+                       "0.05l di olio di oliva",
+                       "5gr di sale",
+                       "200gr berberè (pepe rosso in polvere)",
+                       "0.5l di acqua'",
+                       "700gr di burro",
+                       "700gr di yogurt"],
+       "preparazione": "Il kitcha fit fit è un piatto della cucina Eritrea ed Etiope che viene tipicamente servito a colazione anche se può essere servito negli altri pasti. In genere è composto da tesmi (burro speziato chiarificato) e a volte anche da berbbere nel qual caso è chiamato fir fir. Talvolta l’olio di oliva e il burro vengono utilizzati al posto del burro chiarificato, ma la differenza di questo è sensibile. È un sottilissimo pane azzimo a base di grano, viene preparato, in genere, con farina acqua e sale e cucinato su una padella scaldata ad alta temperatura, dalle forme variabili fin quando non è cotto da un lato (molto simile ad un pancake, anche se con quest’ultimo non vi è alcun rapporto) viene più consumato spesso con un piatto chiamato fit - fit. Esistono due varianti principali del kitcha fit - fit"
+
+	}
+];
+
+
+
